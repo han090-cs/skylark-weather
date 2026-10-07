@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+    background: #0a1626;
+  }
+  body {
+    min-width: 320px;
+    min-height: 100vh;
+    margin: 0;
+    background: #0a1626;
+    font-family: "Avenir Next", Avenir, "Segoe UI", -apple-system, BlinkMacSystemFont,
+      "Helvetica Neue", Arial, sans-serif;
+    font-feature-settings: "tnum";
+  }
+  button, input { font: inherit; }
+  button { cursor: pointer; }
+}
